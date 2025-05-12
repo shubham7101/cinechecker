@@ -77,6 +77,7 @@ func main() {
 		}
 	}
 
+	fmt.Printf("%+v", providers)
 	fmt.Println("Checking completed")
 }
 
