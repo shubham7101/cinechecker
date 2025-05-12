@@ -77,7 +77,9 @@ func main() {
 		}
 	}
 
-	fmt.Printf("%+v", providers)
+	for pn, p := range providers {
+		fmt.Printf("name=%s url=%s\n", pn, p.Url)
+	}
 	fmt.Println("Checking completed")
 }
 
