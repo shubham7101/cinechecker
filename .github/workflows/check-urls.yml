@@ -28,11 +28,12 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add providers.json
+          files=("anime-providers.json" "movies-providers.json")
+          git add "${files[@]}"
 
-          if [[ $(git status --porcelain providers.json) ]]; then
+          if [[ $(git status --porcelain "${files[@]}") ]]; then
             echo "Found changes in providers.json, committing..."
-            git commit -m "Update provider URLs [skip ci]"
+            git commit -m "Update provider URLs"
             git push
           else
             echo "No changes detected in providers.json"

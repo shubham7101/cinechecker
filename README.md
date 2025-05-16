@@ -46,7 +46,3 @@ Example:
 - Uses a 5-second timeout for each URL check.
 - Only follows the first redirect, if any.
 
-## License
-
-MIT License
-"""

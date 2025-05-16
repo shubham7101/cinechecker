@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const providersFile = "providers.json"
+var providerFiles = [2]string{"anime-providers.json", "movies-providers.json"}
 
 var client = http.Client{
 	CheckRedirect: func(_ *http.Request, _ []*http.Request) error {
@@ -24,9 +24,17 @@ type Provider struct {
 }
 
 func main() {
-	file, err := os.OpenFile(providersFile, os.O_RDWR|os.O_CREATE, 0644)
+	for _, filePath := range providerFiles {
+		fmt.Printf("============%s============\n", filePath)
+		checkFile(filePath)
+	}
+	fmt.Println("Checking completed")
+}
+
+func checkFile(filePath string) {
+	file, err := os.OpenFile(filePath, os.O_RDWR|os.O_CREATE, 0644)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "not able to open file %s file: %v\n", providersFile, err)
+		fmt.Fprintf(os.Stderr, "not able to open file %s file: %v\n", filePath, err)
 		os.Exit(1)
 	}
 
@@ -80,7 +88,6 @@ func main() {
 	for pn, p := range providers {
 		fmt.Printf("name=%s url=%s\n", pn, p.Url)
 	}
-	fmt.Println("Checking completed")
 }
 
 func checkUrl(ctx context.Context, URL string) (string, error) {
