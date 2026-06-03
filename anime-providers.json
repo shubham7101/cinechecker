@@ -16,5 +16,15 @@
   "kuroiru": { "url": "https://kuroiru.co" },
   "miruro": { "url": "https://www.miruro.com" },
   "nyaa": { "url": "https://nyaa.si" },
-  "tokyoinsider": { "url": "https://www.tokyoinsider.com" }
+  "tokyoinsider": { "url": "https://www.tokyoinsider.com" },
+  "anikai": { "url": "https://www1.anikai.cc" },
+  "anikoto": { "url": "https://anikoto.cz" },
+  "aniwaves": { "url": "https://aniwaves.ru" },
+  "flimu": { "url": "https://tv.filmu.in" },
+  "reanime": { "url": "https://reanime.to" },
+  "watchanimeworld": { "url": "https://watchanimeworld.net" },
+  "animetsu": { "url": "https://animetsu.net" },
+  "senshi": { "url": "https://senshi.live" },
+  "animeverse-2": { "url": "https://animeverse.me" },
+  "kyren": { "url": "https://kyren.fun" }
 }
