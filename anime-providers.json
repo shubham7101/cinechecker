@@ -1,30 +1,83 @@
 {
-  "123animes": { "url": "https://w1.123animes.ru" },
-  "1anime": { "url": "https://1anime.app" },
-  "allanime": { "url": "https://allanime.day" },
-  "anidap": { "url": "https://anidap.se" },
-  "animehase": { "url": "https://anihase.vercel.app" },
-  "animenexus": { "url": "https://anime.nexus" },
-  "animepahe": { "url": "https://animepahe.pw" },
-  "animetsu": { "url": "https://animetsu.net" },
-  "animeverse": { "url": "https://animeverse.to" },
-  "animex": { "url": "https://animex.one" },
-  "anizone": { "url": "https://anizone.to" },
-  "hayase": { "url": "https://hayase.watch" },
-  "kaa": { "url": "https://kaa.lt" },
-  "kayoanime": { "url": "https://kayoanime.com" },
-  "kuroiru": { "url": "https://kuroiru.co" },
-  "miruro": { "url": "https://www.miruro.com" },
-  "nyaa": { "url": "https://nyaa.si" },
-  "tokyoinsider": { "url": "https://www.tokyoinsider.com" },
-  "anikai": { "url": "https://www1.anikai.cc" },
-  "anikoto": { "url": "https://anikoto.cz" },
-  "aniwaves": { "url": "https://aniwaves.ru" },
-  "flimu": { "url": "https://tv.filmu.in" },
-  "reanime": { "url": "https://reanime.to" },
-  "watchanimeworld": { "url": "https://watchanimeworld.net" },
-  "animetsu": { "url": "https://animetsu.net" },
-  "senshi": { "url": "https://senshi.live" },
-  "animeverse-2": { "url": "https://animeverse.me" },
-  "kyren": { "url": "https://kyren.fun" }
+  "123animes": {
+    "url": "https://w1.123animes.ru"
+  },
+  "1anime": {
+    "url": "https://1anime.app"
+  },
+  "allanime": {
+    "url": "https://allanime.day"
+  },
+  "anidap": {
+    "url": "https://anidap.se"
+  },
+  "anikai": {
+    "url": "https://www1.anikai.cc"
+  },
+  "anikoto": {
+    "url": "https://anikoto.cz"
+  },
+  "animehase": {
+    "url": "https://anihase.vercel.app"
+  },
+  "animenexus": {
+    "url": "https://anime.nexus"
+  },
+  "animepahe": {
+    "url": "https://animepahe.pw"
+  },
+  "animetsu": {
+    "url": "https://animetsu.net"
+  },
+  "animeverse": {
+    "url": "https://animeverse.to"
+  },
+  "animeverse-2": {
+    "url": "https://animeverse.me"
+  },
+  "animex": {
+    "url": "https://animex.one"
+  },
+  "aniwaves": {
+    "url": "https://aniwaves.ru"
+  },
+  "anizone": {
+    "url": "https://anizone.to"
+  },
+  "flimu": {
+    "url": "://"
+  },
+  "hayase": {
+    "url": "https://hayase.watch"
+  },
+  "kaa": {
+    "url": "https://kaa.lt"
+  },
+  "kayoanime": {
+    "url": "https://kayoanime.com"
+  },
+  "kuroiru": {
+    "url": "https://kuroiru.co"
+  },
+  "kyren": {
+    "url": "https://kyren.fun"
+  },
+  "miruro": {
+    "url": "https://www.miruro.com"
+  },
+  "nyaa": {
+    "url": "https://nyaa.si"
+  },
+  "reanime": {
+    "url": "https://reanime.to"
+  },
+  "senshi": {
+    "url": "https://senshi.live"
+  },
+  "tokyoinsider": {
+    "url": "https://www.tokyoinsider.com"
+  },
+  "watchanimeworld": {
+    "url": "https://watchanimeworld.net"
+  }
 }
